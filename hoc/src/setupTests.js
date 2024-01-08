@@ -4,6 +4,10 @@
 // learn more: https://github.com/testing-library/jest-dom
 import '@testing-library/jest-dom';
 
+function fun1() {
+    console.log('Hello Joey')
+}
+
 function fun2() {
     var a = 5
     console.log('Hello Chandler')
